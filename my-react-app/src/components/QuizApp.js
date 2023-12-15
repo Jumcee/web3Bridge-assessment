@@ -1,3 +1,6 @@
+import React from 'react';
+// import ReactDOM from 'react-dom'; // Only import ReactDOM if you're using it here
+
 const quizData = [
     {
       question: "What is the capital of Nigeria?",
@@ -11,7 +14,7 @@ const quizData = [
     },
     {
         question: "which is consider the biggest city in Nigeria?",
-        option: ["Lagos", "Kwara", "Ekiti"]
+        options: ["Lagos", "Kwara", "Ekiti"]
     }
   ];
   
